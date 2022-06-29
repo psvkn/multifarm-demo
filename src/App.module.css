@@ -1,0 +1,24 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 60px;
+}
+
+.appAsset {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+.appLayout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .appLayout {
+    grid-template-columns: 100%;
+  }
+}

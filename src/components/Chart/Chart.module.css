@@ -1,0 +1,14 @@
+.chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chartTitle {
+  color: #FFFFFF;
+  margin: 0;
+}
